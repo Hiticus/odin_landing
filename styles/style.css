@@ -1,0 +1,18 @@
+.box{
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+}
+header{
+    display: flex;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18;
+    flex: auto;
+    flex-direction: row;
+}
+header h1{
+    font-weight: 800;
+    color: #E5E7EB;
+    font-size: 48px;
+}
