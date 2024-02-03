@@ -1,6 +1,11 @@
-/* * {
-    box-sizing: border-box;
-  } */
+
+
+
+/* Looks good enough for now, will come back later to update few things. */
+
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -83,12 +88,24 @@ header ul{
     color: #1F2937;
 }
 .extra{
+    padding: 2em;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 250px));
     grid-gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20%;
 }
 .info p{
-
+    color: #1F2937;
+    align-items: center;
+    justify-content: center;
 }
 .info h5{
     display: flex;
@@ -112,13 +129,40 @@ header ul{
 }
 .quote p{
     font-size: 36px;
-   font-style: italic; 
-   font-weight: 100;  
+     font-style: italic; 
+     font-weight: 100;  
 }
 .quote h3{
     margin-left: auto;
     /* margin-left auto aligns items to the RIGHT. WHAT.  */
 }
-.signup{
-    
+.signup_box{
+    display: flex;
+    color: #E5E7EB;
+    margin: 100px;
+    border-radius: 15px;
+    padding: 100px 50px;
+    background-color: #3882F6;
 }
+.signup_button{
+    margin-left: auto;
+}
+.signup_button button{
+
+    font-size: 14px;
+    font-weight: 600;
+    padding: 7px 1em;
+    border-color: #E5E7EB;
+    color:#E5E7EB;
+    background-color:#3882F6;
+    width: 150px;
+    border-radius: 9px; 
+    border-style: solid;
+}
+footer{
+    padding: 50px;
+    text-align: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
+    
